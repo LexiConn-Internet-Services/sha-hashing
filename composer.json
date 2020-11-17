@@ -1,0 +1,33 @@
+{
+  "name": "lexiconn-internet-services/sha-hashing",
+  "version": "0.0.1",
+  "description": "Adds sha512 and sha256 hashing to Laravel",
+  "type": "library",
+  "require": {
+    "php": "^7.3",
+    "illuminate/support": "8.*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "John F. Chamberlain",
+      "email": "john.f.chamberlain@gmail.com"
+    }
+  ],
+  "homepage": "https://www.lexiconn.com",
+  "autoload": {
+    "files": [],
+    "psr-4": {
+      "LexiConnInternetServices\\ShaHashing\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LexiConnInternetServices\\ShaHashing\\ShaHashingServiceProvider"
+      ]
+    }
+  }
+}
