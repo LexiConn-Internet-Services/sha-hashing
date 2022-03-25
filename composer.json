@@ -4,8 +4,8 @@
   "description": "Adds sha512 and sha256 hashing to Laravel",
   "type": "library",
   "require": {
-    "php": "^7.3",
-    "illuminate/support": "8.*"
+    "php": "^7.3|^8.0",
+    "laravel/framework": "^9.0"
   },
   "license": "MIT",
   "authors": [
